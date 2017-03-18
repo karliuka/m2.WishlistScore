@@ -23,6 +23,6 @@
 <?php if ($block->isEnabled()) : ?>
 	<?php $count = $block->getCounter() ?>
 	<?php if (0 < $count) : ?>
-		<div><?php /* @escapeVerified */ echo $block->escapeHtml(__('%1 people added this product to Wish List', $count)) ?></div>
+		<div class="wishlist-score"><?php /* @escapeVerified */ echo $block->escapeHtml(__('%1 people added this product to Wish List', $count)) ?></div>
 	<?php endif ?>
 <?php endif ?>
