@@ -1,4 +1,21 @@
-.wishlist-score {
-    color: #a3a3a3;
-    font-size: 1.3rem;
-} 
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+	.wishlist-score {
+		color: #a3a3a3;
+		font-size: 1.3rem;
+	} 
+}
+
+//
+//  Mobile
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+	.wishlist-score {
+		margin-bottom: 20px;
+		text-align: center;
+	} 
+}
