@@ -1,6 +1,6 @@
 {
     "name": "faonni/module-wishlist-score",
-    "description": "",
+    "description": "Extension displays how many times a product has been added to wishlist",
     "type": "magento2-module",
 	"version": "2.0.1",
 	"license": [
