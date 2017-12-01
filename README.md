@@ -1,6 +1,14 @@
 # Magento2 WishlistScore
 Extension displays how many times a product has been added to wishlist.
 
+### Product View page
+
+<img alt="Magento2 WishlistScore" src="https://karliuka.github.io/m2/wishlist-score/product.page.png" style="width:100%"/>
+
+### Configuration page
+
+<img alt="Magento2 WishlistScore" src="https://karliuka.github.io/m2/wishlist-score/config.png" style="width:100%"/>
+
 ## Install with Composer as you go
 
 1. Go to Magento2 root folder
